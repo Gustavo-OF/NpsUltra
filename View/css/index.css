@@ -1,0 +1,67 @@
+
+.cor_pessoa{
+    color:rgb(123, 123, 207);
+    font-weight: 700;
+}
+
+.divNotas{
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.nota{
+    border-radius: 50%;
+    height: 50%;
+    max-width: 40%;
+    min-width: 8%;
+    margin-left: 1.5%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    cursor:pointer
+}
+
+.notaNA{
+    border-radius: 50%;
+    height: 50%;
+    max-width: 40%;
+    min-width: 8%;
+    margin-left: 1.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 193, 193);
+    cursor:pointer;
+    color: rgb(148,160,207);
+}
+
+.btnNps{
+    border: 1px solid rgb(189, 188, 188);    
+    width: 10%;
+    background-color: transparent;
+    color:grey;
+    border-radius: 3px;
+}
+
+.btnUltra{
+    
+    border: 2px solid #2fabab;
+    background: #2fabab;
+    color: #ffffff;
+    font-family: MontserratBold;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 6px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 25px;
+    box-shadow: none;
+    display: block;
+    width: 276px;
+    margin: 0 auto;
+    height: 44px;
+    font-weight: 700;
+}
