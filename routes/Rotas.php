@@ -47,10 +47,13 @@ class Rotas
                     case 'busca_questionario':
                         echo $this->controllerQuestionarioUx->getQuestionarioUx();
                         break;
+                    case 'insere_questionario':
+                        echo $this->controllerQuestionarioUx->insereQuestionario($_POST);
+                        break;
                 }
             default:
-                if (empty($classe)) {
-                    include_once __DIR__ . "/../view/index.php";
+                if (empty($classe) && isset($req['a1']) && is_numeric($req['a1'])) {
+                    $this->controllerQuestionarioUx->carregaPaginaInicial($req['a1']);
                 }
                 break;
         }

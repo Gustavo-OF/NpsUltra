@@ -16,19 +16,12 @@
         <div class="banner_ultra d-flex justify-content-center">
             <img alt="bannerUltra" src="View/images/topo.png" />
         </div>
-        <h4 class="cor_pessoa text-center mt-3">Olá, <?php echo ucwords(strtolower($nomeF))?></h4>
-        <div class="texto_mkt mt-4 d-flex justify-content-center">
+        <div class="texto_mkt mt-4 d-flex justify-content-center mb-5">
             <br/>
             <img alt="textoUltra" src="View/images/texto_mkt.png"/>
         </div>
-        <div class="questionario">
-            
-        </div>
-
-        <div class="text-center pt-5 d-flex pb-3">
-            <button type="button" class="btnUltra">Fechar página</button>
-            <button type="button" class="btnUltra" style="background-color: #ab4894;border-color:#ab4894" id="btnEnviaPesquisa">Enviar pesquisa</button>
-        </div>
+       <h4 class="text-center" style="color:red">Aluno não encontrado</h4>
+        
     </div>
 </body>
 <script type="text/javascript" src="http://localhost/NPS/View/js/bootstrap.bundle.min.js"></script>

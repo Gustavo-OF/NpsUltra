@@ -21,7 +21,7 @@ $database = new Database("ux");
 $controllerFuncoes = new ControllerFuncoes();
 $serviceClientesUx = new ServicesClienteUx($database,$controllerFuncoes);
 $serviceQuestionarioUx = new ServicesQuestionarioUx($database);
-$controllerQuestionarioUx = new ControllerQuestionarioUx($serviceQuestionarioUx);
+$controllerQuestionarioUx = new ControllerQuestionarioUx($serviceQuestionarioUx,$serviceClientesUx);
 $rotas = new Rotas($controllerQuestionarioUx);
 
 // em producao trocar para $_server

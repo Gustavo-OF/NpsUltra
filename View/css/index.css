@@ -1,3 +1,10 @@
+.banner_ultra > img{
+    width: 100%;
+}
+
+.texto_mkt > img{
+    width: 100%;
+}
 
 .cor_pessoa{
     color:rgb(123, 123, 207);
@@ -64,4 +71,68 @@
     margin: 0 auto;
     height: 44px;
     font-weight: 700;
+}
+
+.selecionaResposta{
+    border: 2px solid #2fabab;
+
+}
+
+@media (min-width: 450px) and (max-width: 920px){
+    .divNotas{
+        height: 60px;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    .notaNA{
+        border-radius: 50%;
+        height: 50%;
+        max-width: 40%;
+        min-width: 8%;
+        margin-left: 1.5%;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(202, 193, 193);
+        cursor:pointer;
+        color: rgb(148,160,207);
+        font-size: 12px;
+    }
+
+    button[type=button]{
+        width: 40%;
+    }
+}
+
+@media(max-width: 449px){
+    .divNotas{
+        height: 50px;
+        width: 92%;
+        text-align: center;
+        align-items: center;
+        margin-left: 3%;
+    }
+    .notaNA{
+        border-radius: 50%;
+        height: 50%;
+        max-width: 40%;
+        min-width: 8%;
+        margin-left: 1.5%;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(202, 193, 193);
+        cursor:pointer;
+        color: rgb(148,160,207);
+        font-size: 10px;
+    }
+
+    input[type=checkbox]{
+        width: 10%;
+    }
+    button[type=button]{
+        width: 50%;
+    }
+
 }
