@@ -26,7 +26,7 @@
         </div>
 
         <div class="text-center pt-5 d-flex pb-3">
-            <button type="button" class="btnUltra">Fechar página</button>
+            <!-- <button type="button" class="btnUltra" onclick="fechaJanela()">Fechar página</button> -->
             <button type="button" class="btnUltra" style="background-color: #ab4894;border-color:#ab4894" id="btnEnviaPesquisa">Enviar pesquisa</button>
         </div>
     </div>

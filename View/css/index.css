@@ -1,9 +1,13 @@
+h6{
+    text-align: center;
+}
+
 .banner_ultra > img{
-    width: 100%;
+    width: 60%;
 }
 
 .texto_mkt > img{
-    width: 100%;
+    width: 55%;
 }
 
 .cor_pessoa{
@@ -79,6 +83,15 @@
 }
 
 @media (min-width: 450px) and (max-width: 920px){
+
+    .banner_ultra > img{
+        width: 100%;
+    }
+    
+    .texto_mkt > img{
+        width: 100%;
+    }
+
     .divNotas{
         height: 60px;
         width: 90%;
@@ -104,9 +117,19 @@
     button[type=button]{
         width: 40%;
     }
+   
 }
 
 @media(max-width: 449px){
+
+    .banner_ultra > img{
+        width: 100%;
+    }
+    
+    .texto_mkt > img{
+        width: 100%;
+    }
+
     .divNotas{
         height: 50px;
         width: 92%;
@@ -133,6 +156,9 @@
     }
     button[type=button]{
         width: 50%;
+    }
+    h6{
+        text-align: justify !important;
     }
 
 }

@@ -1,3 +1,8 @@
+function fechaJanela(){
+    window.open('', '_self', ''); //bug fix
+    window.close();
+}
+
 function escolheNota(event, idPergunta) {
     let classes = event.target.className.split(" ");
     let id = event.target.id;
@@ -68,7 +73,7 @@ $(function () {
                 }
                 if (data[i].ID_PERGUNTA_NPS != 3) {
                     $(".questionario").append(
-                        "<h6 class='text-center pt-3'>" + data[i].PERGUNTA + "</h6>" +
+                        "<h6 class='pt-3'>" + data[i].PERGUNTA + "</h6>" +
                         inputResposta
                     )
                 } else {
